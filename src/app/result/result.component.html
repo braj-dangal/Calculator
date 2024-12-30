@@ -1,0 +1,13 @@
+<div class="calculator">
+    <div class="input-field">
+        <input type="number" [(ngModel)]="num1" placeholder="Enter first number" class="textbox"/><br><br>
+        <input type="number" [(ngModel)]="num2" placeholder="Enter second number" class="textbox"/><br><br>
+    </div>
+    <button mat-button (click)="calculate('sum')" class="button">Sum</button>
+    &nbsp;
+    <button mat-button (click)="calculate('diff')" class="button">Diff</button>
+    &nbsp;
+    <button mat-button (click)="calculate('product')" class="button">Product</button>
+    &nbsp;
+    <button mat-button (click)="calculate('divide')" class="button">Divide</button>
+</div>
